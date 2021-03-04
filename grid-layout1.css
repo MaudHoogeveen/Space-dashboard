@@ -1,0 +1,189 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap:10px; 
+    grid-template-areas: 
+        "header  header"
+          "main  main"
+          "main  main"
+          "ad1   ad2"
+          "ad3   ad3"
+          "ad4   ad4"
+         " ad5   ad5"
+        ; 
+    
+  }
+
+
+.tekstblok{
+    text-align: center;
+   
+}
+
+header{
+    grid-area: header;
+}
+
+
+  .main{
+    grid-area: main;
+    background-color: #393D51;
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 4px 4px 10px black;  
+   
+  }
+
+  .ad1 {
+    grid-area: ad1;
+    background-image: linear-gradient(to bottom, #90C3F6 , #A071F5);
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 4px 4px 10px black;
+    max-width: 100%; 
+  }
+  .ad2 {
+    grid-area: ad2;
+    background-image: linear-gradient(to top, #F556A2 , #F49062);
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px black;
+    max-width: 100%;
+  }
+
+  .ad3{
+    grid-area: ad3;
+    background-color: #393D51;
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 4px 4px 10px black;
+  }
+
+  .ad4{
+    grid-area: ad4; 
+    background-color: #393D51;
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 4px 4px 10px black;
+  }
+
+  .ad5{
+    grid-area: ad5; 
+    background-color: #393D51;
+    border-radius: 10px; 
+    padding: 5px; 
+    box-shadow: 4px 4px 10px black;
+    font-size: 10px;
+    
+  }
+  
+ 
+   
+  
+
+  @media only screen and (min-width: 768px){
+    body{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px; 
+      grid-template-areas: 
+            "header header header"
+            "main  main    ad1"
+            "main   main   ad2"
+            "ad3    ad3    ad3"
+            "ad4    ad4    ad4"
+            "ad5    ad5    ad5"
+           ; 
+      
+    }
+.main{
+    width: 100%; 
+}
+
+.ad1, .ad2{
+    width: 300px;   
+}
+
+h1{
+    font-size: 30px; 
+}
+
+.ad3{
+    width: 100%;
+}
+
+.ad5{
+    font-size: 16px; 
+}
+
+#myChart3{
+    width: 100%; 
+    
+}
+.tekstblok{
+    font-size: 20px; 
+}
+
+p{
+    font-size: 30px; 
+}
+
+
+
+    
+    @media only screen and (min-width: 1024px){
+        body{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 20px;
+          grid-template-areas: 
+                "header header header header"  
+                "main  main  ad3   ad3"
+                "main   main  ad3 ad3"
+                "ad1  ad4  ad4    ad4"
+                "ad2 ad4    ad4   ad4"
+                "ad5  ad5   ad5   ad5"
+                ; 
+        }
+
+    .ad1, .ad2{
+        text-align: center; 
+        padding: 60px;
+    }
+
+    h1{
+        font-size: 40px; 
+    }
+
+    .tekstblok{
+        font-size: 30px; 
+        font-weight: 100;
+        
+    }
+
+  
+
+
+  
+
+
+    @media only screen and (min-width: 1440px){
+        body{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 20px;
+          grid-template-areas: 
+                "header header header  header"
+                "main  main  ad3   ad3"
+                "main   main   ad3  ad3"
+                "ad1   ad4    ad4   ad4"
+                "ad2   ad4    ad4   ad4"
+                "ad5    ad5   ad5   ad5"
+               ; 
+          
+        }
+      
+
+
+
+ 

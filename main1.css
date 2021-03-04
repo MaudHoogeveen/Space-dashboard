@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+html {
+    box-sizing: border-box;
+    
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+
+body{
+    background-color: #252B3E; 
+}
+
+
+h1{ 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gruppo', cursive;
+    color: #F4B22D; 
+    text-align: center;
+    padding: 0; 
+    margin: 0; 
+    margin-bottom: 10px; 
+   
+    
+}
+
+h2{
+    color: white;  
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0.2em;
+    border-radius: 0.2em; 
+    margin-left: 5px;   
+    font-family: 'Raleway', cursive; 
+    text-align: center;
+}
+
+p{
+    font-family: 'Raleway', cursive; 
+    font-size: bold; 
+    color: white; 
+    text-align: center;
+}
+
+h3{
+    color: white; 
+    font-size: 1em;
+    font-family: 'Raleway', cursive; 
+    font-weight: 100; 
+    text-align: center; 
+}
+
+
+
+
+
+
